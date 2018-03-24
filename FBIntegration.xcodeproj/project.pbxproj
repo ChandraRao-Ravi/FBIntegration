@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0F69522066852700177569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F69512066852700177569 /* AppDelegate.swift */; };
-		3F0F69542066852700177569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F69532066852700177569 /* ViewController.swift */; };
-		3F0F69572066852700177569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F69552066852700177569 /* Main.storyboard */; };
-		3F0F69592066852700177569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F69582066852700177569 /* Assets.xcassets */; };
-		3F0F695C2066852700177569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F695A2066852700177569 /* LaunchScreen.storyboard */; };
+		3F0F697A206685C600177569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F696E206685C600177569 /* AppDelegate.swift */; };
+		3F0F697C206685C600177569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F6972206685C600177569 /* LaunchScreen.storyboard */; };
+		3F0F697D206685C600177569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F6974206685C600177569 /* Main.storyboard */; };
+		3F0F697E206685C600177569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F6978206685C600177569 /* ViewController.swift */; };
+		3F0F697F206685C600177569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F6979206685C600177569 /* Assets.xcassets */; };
+		3F0F69832066A02A00177569 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F69822066A02A00177569 /* Info.plist */; };
+		F30974B0C3DC1FA0EBA84CE7 /* Pods_FBIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3AA83B8A25FB4751CBD849 /* Pods_FBIntegration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31ED5B5E03B84C212D736AD1 /* Pods-FBIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration.release.xcconfig"; sourceTree = "<group>"; };
 		3F0F694E2066852700177569 /* FBIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0F69512066852700177569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F0F69532066852700177569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F0F69562066852700177569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F0F69582066852700177569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F0F695B2066852700177569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F0F695D2066852700177569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0F696E206685C600177569 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0F6973206685C600177569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0F6975206685C600177569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3F0F6978206685C600177569 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0F6979206685C600177569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0F69822066A02A00177569 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3AA83B8A25FB4751CBD849 /* Pods_FBIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF805E76A4D23DE57A64D8 /* Pods-FBIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30974B0C3DC1FA0EBA84CE7 /* Pods_FBIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				3F0F69502066852700177569 /* FBIntegration */,
 				3F0F694F2066852700177569 /* Products */,
+				7B885BB9B14AA47554A2A91F /* Pods */,
+				B753C755F2D2427DED3CAF39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +62,63 @@
 		3F0F69502066852700177569 /* FBIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				3F0F69512066852700177569 /* AppDelegate.swift */,
-				3F0F69532066852700177569 /* ViewController.swift */,
-				3F0F69552066852700177569 /* Main.storyboard */,
-				3F0F69582066852700177569 /* Assets.xcassets */,
-				3F0F695A2066852700177569 /* LaunchScreen.storyboard */,
-				3F0F695D2066852700177569 /* Info.plist */,
+				3F0F69822066A02A00177569 /* Info.plist */,
+				3F0F696D206685C500177569 /* AppDelegate */,
+				3F0F6979206685C600177569 /* Assets.xcassets */,
+				3F0F6971206685C600177569 /* Base.lproj */,
+				3F0F6976206685C600177569 /* ViewControllers */,
 			);
 			path = FBIntegration;
+			sourceTree = "<group>";
+		};
+		3F0F696D206685C500177569 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F696E206685C600177569 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3F0F6971206685C600177569 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F6972206685C600177569 /* LaunchScreen.storyboard */,
+				3F0F6974206685C600177569 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		3F0F6976206685C600177569 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F6977206685C600177569 /* ViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F0F6977206685C600177569 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F6978206685C600177569 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B885BB9B14AA47554A2A91F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF805E76A4D23DE57A64D8 /* Pods-FBIntegration.debug.xcconfig */,
+				31ED5B5E03B84C212D736AD1 /* Pods-FBIntegration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B753C755F2D2427DED3CAF39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3AA83B8A25FB4751CBD849 /* Pods_FBIntegration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0F69602066852700177569 /* Build configuration list for PBXNativeTarget "FBIntegration" */;
 			buildPhases = (
+				89A84E5DC7E291B99F30F8A0 /* [CP] Check Pods Manifest.lock */,
 				3F0F694A2066852700177569 /* Sources */,
 				3F0F694B2066852700177569 /* Frameworks */,
 				3F0F694C2066852700177569 /* Resources */,
+				E6E3A171042BBF69A9EC5D26 /* [CP] Embed Pods Frameworks */,
+				1B41D3945DC7575808E7CF3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,41 +183,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0F695C2066852700177569 /* LaunchScreen.storyboard in Resources */,
-				3F0F69592066852700177569 /* Assets.xcassets in Resources */,
-				3F0F69572066852700177569 /* Main.storyboard in Resources */,
+				3F0F69832066A02A00177569 /* Info.plist in Resources */,
+				3F0F697D206685C600177569 /* Main.storyboard in Resources */,
+				3F0F697F206685C600177569 /* Assets.xcassets in Resources */,
+				3F0F697C206685C600177569 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B41D3945DC7575808E7CF3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A84E5DC7E291B99F30F8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E3A171042BBF69A9EC5D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F0F694A2066852700177569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0F69542066852700177569 /* ViewController.swift in Sources */,
-				3F0F69522066852700177569 /* AppDelegate.swift in Sources */,
+				3F0F697E206685C600177569 /* ViewController.swift in Sources */,
+				3F0F697A206685C600177569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F0F69552066852700177569 /* Main.storyboard */ = {
+		3F0F6972206685C600177569 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F0F69562066852700177569 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F0F695A2066852700177569 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F0F695B2066852700177569 /* Base */,
+				3F0F6973206685C600177569 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0F6974206685C600177569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F6975206685C600177569 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +391,7 @@
 		};
 		3F0F69612066852700177569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BF805E76A4D23DE57A64D8 /* Pods-FBIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +406,7 @@
 		};
 		3F0F69622066852700177569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31ED5B5E03B84C212D736AD1 /* Pods-FBIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

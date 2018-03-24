@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,87 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FBIntegration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zM8-ug-ZEi">
+                                <rect key="frame" x="16" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="BW3-pc-69H"/>
+                                    <constraint firstAttribute="width" constant="100" id="lkr-Uh-UyQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-Sv-6vk">
+                                <rect key="frame" x="124" y="20" width="243" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Mbi-FE-iJG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzf-xc-dki">
+                                <rect key="frame" x="124" y="53" width="243" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="w2M-27-xEQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5D-rb-6LR">
+                                <rect key="frame" x="124" y="86" width="243" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="joG-MH-8Zi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ps-Ze-zGP">
+                                <rect key="frame" x="16" y="601" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.19111138582229614" green="0.3092561662197113" blue="0.55045032501220703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="je8-Qd-Lld"/>
+                                </constraints>
+                                <state key="normal" title="Facebook Login"/>
+                                <connections>
+                                    <action selector="btnFBLoginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mKG-5E-c58"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wwa-Sv-6vk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3Fd-tJ-gBg"/>
+                            <constraint firstItem="zM8-ug-ZEi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5no-Ra-jbJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D5D-rb-6LR" secondAttribute="trailing" constant="8" id="9HB-nu-n8C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bzf-xc-dki" secondAttribute="trailing" constant="8" id="CTx-hZ-UHn"/>
+                            <constraint firstItem="Bzf-xc-dki" firstAttribute="top" secondItem="Wwa-Sv-6vk" secondAttribute="bottom" constant="8" id="DtW-Yt-gt3"/>
+                            <constraint firstItem="D5D-rb-6LR" firstAttribute="top" secondItem="Bzf-xc-dki" secondAttribute="bottom" constant="8" id="FOE-gg-y6d"/>
+                            <constraint firstItem="D5D-rb-6LR" firstAttribute="leading" secondItem="zM8-ug-ZEi" secondAttribute="trailing" constant="8" id="H9r-Uj-vT8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7ps-Ze-zGP" secondAttribute="bottom" constant="16" id="WuX-vg-4Pd"/>
+                            <constraint firstItem="zM8-ug-ZEi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ani-KN-95a"/>
+                            <constraint firstItem="Wwa-Sv-6vk" firstAttribute="leading" secondItem="zM8-ug-ZEi" secondAttribute="trailing" constant="8" id="cb0-il-mG7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7ps-Ze-zGP" secondAttribute="trailing" constant="16" id="dDC-PH-wEp"/>
+                            <constraint firstItem="7ps-Ze-zGP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dQX-ch-2ht"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wwa-Sv-6vk" secondAttribute="trailing" constant="8" id="gfs-1W-xP6"/>
+                            <constraint firstItem="Bzf-xc-dki" firstAttribute="leading" secondItem="zM8-ug-ZEi" secondAttribute="trailing" constant="8" id="szF-XT-Rdf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnFbLogin" destination="7ps-Ze-zGP" id="vYK-7g-Miz"/>
+                        <outlet property="imgProfilePicture" destination="zM8-ug-ZEi" id="vrm-vg-kJa"/>
+                        <outlet property="lblEmailAddress" destination="D5D-rb-6LR" id="ZRP-pu-Bin"/>
+                        <outlet property="lblUserId" destination="Wwa-Sv-6vk" id="U5V-4R-GdM"/>
+                        <outlet property="lblUserName" destination="Bzf-xc-dki" id="ea9-1a-G0v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
